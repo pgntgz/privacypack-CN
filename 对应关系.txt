@@ -1,0 +1,31 @@
+1.邮箱: qq邮箱 网易邮箱 outlook gmail  - gmail mailbox proton_mail tuta_mail
+2.相片: 厂商相册 google_photos apple_photos - google_photos ente_photos photoprism fossify_gallery
+3.搜索: 百度 搜狗 bing 360 - Google duckduckgo brave_search startpage searxng
+4.浏览器: 厂商浏览器 360 百度 qq浏览器 夸克 edge - chrom firefox duckduckgo brave waterfox ironfox vivaldi tor
+5. 通信软件： qq 微信 - telegram Discord simplex signal Matrix
+6. 笔记： 厂商便签 google_keep apple_notes notion - 手写  obsidian logseq joplin ddocs.new fossify_notes
+7. 云盘： 百度网盘 夸克网盘 迅雷 123云盘 icloud（云上贵州） onedrive - google_drive icloud proton_drive filen nextcloud 
+8. 密码管理： 厂商管理器 google_passwords apple_passwords - 手写 bitwarden proton_pass keepass 1password
+9. 两步验证器：google_auth  microsoft_auth authy apple_passwords - ente_auth aegis_auth freeotp proton_auth bitwarden_auth yubico_auth 1password vaultwarden stratum 2fas_auth
+10.日程： 厂商自带 google_calendar outlook_calendar - 手写 proton_calendar fossify_calendar nextcloud_calendar
+11. 电话簿： 厂商自带 - google_contacts fossify_contacts proton_mail tuta_mail
+12：应用商店： 厂商自带 应用宝 酷安 Google play- Google play accrescent f_droid aurora_store aurora_store
+13；科学上网： 我不会 类老王VPN 类快连VPN - 机场订阅+ 自建VPN+ Clash V2rayNG singbox Hiddify
+14: AI：deepseek  豆包 千问 元宝 Kimi microsoft_copilot 厂商自带 - chatgpt gemini claude grok mistralai ollama duckai lumo
+15：全屋智能：厂商自带 -  不用了 apple_homekit google_home
+16：地图：高德 百度地图 腾讯地图 - 非常遗憾的是在这一领域没有较好的替代品
+17： 翻译： 百度翻译 搜狗翻译 deepl - google_translate apple_translate libretranslate mozilla_translate 
+18：群聊：qq 微信 - discord matrix fluxer
+19：社交媒体; 抖音 快手 小红书 微博 知乎 百度贴吧 NGA facebook instagram threads Twitter reddit- 知乎 Twitter reddit minds pixelfed 
+20;视频通话：腾讯会议 钉钉 microsoft_teams zoom - google_meet brave_talk jitsi nextcloud_talk
+21: 支付方式：微信 支付宝 数字人民币 -现金&实体卡优先 支付宝 paypal google_pay apple_pay 
+22: 加密钱包： coinbase_wallet metamask phantom trust_wallet - brave_wallet cake_wallet proton_wallet zodl
+23: DNS： ISPDNS - cloudflare google_search controld nextdns adguard quad9 mullvad_dns opennic
+24:pc操作系统：windows macos - arch_linux macos linux_mint qubes_os fedora ubuntu debian nixos opensuse Artix Devuan Gentoo FreeBSD OpenBSD NetBSD macOS
+25: 手机操作系统： 厂商定制安卓 ios - graphene_os ios lineage_os e_os Evolution X crDroid calyx_os Project Infinity X
+26:B2C影音： 爱奇艺 腾讯视频 优酷 bilbil netflix disney_plus - 自建服务 Bangumi Animeko Kazumi
+27:文书： Microsoft_365 WPS 金山文档 Google_Workspace Apple_iWork - LibreOffice Collabora OnlyOffice OpenOffice CryptPad proton_docs fileverse 
+28:域名托管: 腾讯云 阿里云 godaddy - cloudflare njalla 1984_hosting orangewebsite
+新增：
+29：UGC影音：抖音 快手 bilbil - piliplus youtube
+30:输入法： 百度 搜狗 迅飞 微信输入法 - Gboard Fcitx5 中州韵 语燕输入法

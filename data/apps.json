@@ -1,0 +1,515 @@
+{
+    "categories": [
+        {
+            "name": "电子邮箱",
+            "order": 1,
+            "mainstream_apps": [
+                { "id": "qq_mail", "name": "QQ邮箱" },
+                { "id": "wyyoux", "name": "网易邮箱" },
+                { "id": "outlook", "name": "Outlook" },
+                { "id": "gmail", "name": "Gmail" }
+            ],
+            "private_alternatives": [
+                { "id": "gmail", "name": "Gmail" },
+                { "id": "mailbox", "name": "mailbox.org" },
+                { "id": "proton_mail", "name": "Proton Mail" },
+                { "id": "tuta_mail", "name": "Tuta Mail" }
+            ]
+        },
+        {
+            "name": "相册",
+            "order": 2,
+            "mainstream_apps": [
+                { "id": "vendor_gallery", "name": "厂商相册" },
+                { "id": "google_photos", "name": "Google Photos" },
+                { "id": "apple_photos", "name": "Apple Photos" }
+            ],
+            "private_alternatives": [
+                { "id": "google_photos", "name": "Google Photos" },
+                { "id": "ente_photos", "name": "Ente Photos" },
+                { "id": "photoprism", "name": "PhotoPrism" },
+                { "id": "fossify_gallery", "name": "Fossify Gallery" }
+            ]
+        },
+        {
+            "name": "搜索引擎",
+            "order": 3,
+            "mainstream_apps": [
+                { "id": "baidu", "name": "百度" },
+                { "id": "sogou", "name": "搜狗" },
+                { "id": "bing", "name": "Bing" },
+                { "id": "360", "name": "360搜索" }
+            ],
+            "private_alternatives": [
+                { "id": "google_search", "name": "Google" },
+                { "id": "duckduckgo", "name": "DuckDuckGo" },
+                { "id": "brave_search", "name": "Brave Search" },
+                { "id": "startpage", "name": "Startpage" },
+                { "id": "searxng", "name": "SearXNG" }
+            ]
+        },
+        {
+            "name": "浏览器",
+            "order": 4,
+            "mainstream_apps": [
+                { "id": "vendor_browser", "name": "厂商浏览器" },
+                { "id": "360", "name": "360浏览器" },
+                { "id": "baidu", "name": "百度浏览器" },
+                { "id": "qq_browser", "name": "QQ浏览器" },
+                { "id": "quark", "name": "夸克" },
+                { "id": "edge", "name": "Edge" }
+            ],
+            "private_alternatives": [
+                { "id": "chrom", "name": "Chrome" },
+                { "id": "firefox", "name": "Firefox" },
+                { "id": "duckduckgo", "name": "DuckDuckGo Browser" },
+                { "id": "brave", "name": "Brave" },
+                { "id": "waterfox", "name": "Waterfox" },
+                { "id": "ironfox", "name": "IronFox" },
+                { "id": "vivaldi", "name": "Vivaldi" },
+                { "id": "tor", "name": "Tor" }
+            ]
+        },
+        {
+            "name": "通信软件",
+            "order": 5,
+            "mainstream_apps": [
+                { "id": "qq", "name": "QQ" },
+                { "id": "wechat", "name": "微信" }
+            ],
+            "private_alternatives": [
+                { "id": "telegram", "name": "Telegram" },
+                { "id": "Discord", "name": "Discord" },
+                { "id": "simplex", "name": "SimpleX Chat" },
+                { "id": "signal", "name": "Signal" },
+                { "id": "Matrix", "name": "Matrix" }
+            ]
+        },
+        {
+            "name": "笔记",
+            "order": 6,
+            "mainstream_apps": [
+                { "id": "vendor_notes", "name": "厂商便签" },
+                { "id": "google_keep", "name": "Google Keep" },
+                { "id": "apple_notes", "name": "Apple Notes" },
+                { "id": "notion", "name": "Notion" }
+            ],
+            "private_alternatives": [
+                { "id": "handwritten", "name": "手写" },
+                { "id": "obsidian", "name": "Obsidian" },
+                { "id": "logseq", "name": "Logseq" },
+                { "id": "joplin", "name": "Joplin" },
+                { "id": "ddocs_new", "name": "ddocs.new" },
+                { "id": "fossify_notes", "name": "Fossify Notes" }
+            ]
+        },
+        {
+            "name": "云盘",
+            "order": 7,
+            "mainstream_apps": [
+                { "id": "baidu_wangpan", "name": "百度网盘" },
+                { "id": "quark_wangpan", "name": "夸克网盘" },
+                { "id": "xunlei", "name": "迅雷" },
+                { "id": "123pan", "name": "123云盘" },
+                { "id": "icloud_guizhou", "name": "iCloud (云上贵州)" },
+                { "id": "onedrive", "name": "OneDrive" }
+            ],
+            "private_alternatives": [
+                { "id": "google_drive", "name": "Google Drive" },
+                { "id": "icloud", "name": "iCloud" },
+                { "id": "proton_drive", "name": "Proton Drive" },
+                { "id": "filen", "name": "Filen" },
+                { "id": "nextcloud", "name": "Nextcloud" }
+            ]
+        },
+        {
+            "name": "密码管理",
+            "order": 8,
+            "mainstream_apps": [
+                { "id": "vendor_password_manager", "name": "厂商管理器" },
+                { "id": "google_passwords", "name": "Google Passwords" },
+                { "id": "apple_passwords", "name": "Apple Passwords" }
+            ],
+            "private_alternatives": [
+                { "id": "handwritten", "name": "手写" },
+                { "id": "bitwarden", "name": "Bitwarden" },
+                { "id": "proton_pass", "name": "Proton Pass" },
+                { "id": "keepass", "name": "KeePass" },
+                { "id": "1password", "name": "1Password" }
+            ]
+        },
+        {
+            "name": "两步验证器",
+            "order": 9,
+            "mainstream_apps": [
+                { "id": "google_auth", "name": "Google Auth" },
+                { "id": "microsoft_auth", "name": "Microsoft Auth" },
+                { "id": "authy", "name": "Authy" },
+                { "id": "apple_passwords", "name": "Apple Passwords" }
+            ],
+            "private_alternatives": [
+                { "id": "ente_auth", "name": "Ente Auth" },
+                { "id": "aegis_auth", "name": "Aegis Auth" },
+                { "id": "freeotp", "name": "FreeOTP" },
+                { "id": "proton_auth", "name": "Proton Auth" },
+                { "id": "bitwarden_auth", "name": "Bitwarden Auth" },
+                { "id": "yubico_auth", "name": "Yubico Authenticator" },
+                { "id": "1password", "name": "1Password" },
+                { "id": "vaultwarden", "name": "Vaultwarden" },
+                { "id": "stratum", "name": "Stratum" },
+                { "id": "2fas_auth", "name": "2FAS Auth" }
+            ]
+        },
+        {
+            "name": "日程",
+            "order": 10,
+            "mainstream_apps": [
+                { "id": "vendor_calendar", "name": "厂商自带" },
+                { "id": "google_calendar", "name": "Google Calendar" },
+                { "id": "outlook_calendar", "name": "Outlook Calendar" }
+            ],
+            "private_alternatives": [
+                { "id": "handwritten", "name": "手写" },
+                { "id": "proton_calendar", "name": "Proton Calendar" },
+                { "id": "fossify_calendar", "name": "Fossify Calendar" },
+                { "id": "nextcloud_calendar", "name": "Nextcloud Calendar" }
+            ]
+        },
+        {
+            "name": "电话簿",
+            "order": 11,
+            "mainstream_apps": [
+                { "id": "vendor_contacts", "name": "厂商自带" }
+            ],
+            "private_alternatives": [
+                { "id": "google_contacts", "name": "Google Contacts" },
+                { "id": "fossify_contacts", "name": "Fossify Contacts" },
+                { "id": "proton_mail", "name": "Proton Contacts" },
+                { "id": "tuta_mail", "name": "Tuta Contacts" }
+            ]
+        },
+        {
+            "name": "应用商店",
+            "order": 12,
+            "mainstream_apps": [
+                { "id": "vendor_app_store", "name": "厂商自带" },
+                { "id": "yingyongbao", "name": "应用宝" },
+                { "id": "coolapk", "name": "酷安" },
+                { "id": "play_store", "name": "Google play" }
+            ],
+            "private_alternatives": [
+                { "id": "play_store", "name": "Google play" },
+                { "id": "accrescent", "name": "accrescent" },
+                { "id": "f_droid", "name": "f_droid" },
+                { "id": "aurora_store", "name": "aurora_store" }
+            ]
+        },
+        {
+            "name": "科学上网",
+            "order": 13,
+            "mainstream_apps": [
+                { "id": "dont_know", "name": "我不会" },
+                { "id": "laowang_vpn", "name": "类老王VPN" },
+                { "id": "kuailian_vpn", "name": "类快连VPN" }
+            ],
+            "private_alternatives": [
+                { "id": "airport_subscription", "name": "机场订阅+" },
+                { "id": "self_hosted_vpn", "name": "自建VPN+" },
+                { "id": "clash", "name": "Clash" },
+                { "id": "v2rayng", "name": "V2rayNG" },
+                { "id": "singbox", "name": "singbox" },
+                { "id": "hiddify", "name": "Hiddify" }
+            ]
+        },
+        {
+            "name": "AI",
+            "order": 14,
+            "mainstream_apps": [
+                { "id": "deepseek", "name": "deepseek" },
+                { "id": "doubao", "name": "豆包" },
+                { "id": "qianwen", "name": "千问" },
+                { "id": "yuanbao", "name": "元宝" },
+                { "id": "Kimi", "name": "Kimi" },
+                { "id": "microsoft_copilot", "name": "microsoft_copilot" },
+                { "id": "vendor_system", "name": "厂商自带" }
+            ],
+            "private_alternatives": [
+                { "id": "chatgpt", "name": "chatgpt" },
+                { "id": "gemini", "name": "gemini" },
+                { "id": "claude", "name": "claude" },
+                { "id": "grok", "name": "grok" },
+                { "id": "mistralai", "name": "mistralai" },
+                { "id": "ollama", "name": "ollama" },
+                { "id": "duckai", "name": "duckai" },
+                { "id": "lumo", "name": "lumo" }
+            ]
+        },
+        {
+            "name": "全屋智能",
+            "order": 15,
+            "mainstream_apps": [
+                { "id": "vendor_system", "name": "厂商自带" }
+            ],
+            "private_alternatives": [
+                { "id": "buyongle", "name": "不用了" },
+                { "id": "apple_homekit", "name": "apple_homekit" },
+                { "id": "google_home", "name": "google_home" }
+            ]
+        },
+        {
+            "name": "地图",
+            "order": 16,
+            "mainstream_apps": [
+                { "id": "gaode", "name": "高德" },
+                { "id": "baidu_maps", "name": "百度地图" },
+                { "id": "tencent_maps", "name": "腾讯地图" }
+            ],
+            "private_alternatives": [
+                { "id": "no_good_alternative", "name": "非常遗憾的是在这一领域没有较好的替代品" }
+            ]
+        },
+        {
+            "name": "翻译",
+            "order": 17,
+            "mainstream_apps": [
+                { "id": "baidu_translate", "name": "百度翻译" },
+                { "id": "sogou_translate", "name": "搜狗翻译" },
+                { "id": "deepl", "name": "deepl" }
+            ],
+            "private_alternatives": [
+                { "id": "google_translate", "name": "google_translate" },
+                { "id": "apple_translate", "name": "apple_translate" },
+                { "id": "libretranslate", "name": "libretranslate" },
+                { "id": "mozilla_translate", "name": "mozilla_translate" }
+            ]
+        },
+        {
+            "name": "群聊",
+            "order": 18,
+            "mainstream_apps": [
+                { "id": "qq", "name": "qq" },
+                { "id": "wechat", "name": "微信" }
+            ],
+            "private_alternatives": [
+                { "id": "discord", "name": "discord" },
+                { "id": "matrix", "name": "matrix" },
+                { "id": "fluxer", "name": "fluxer" }
+            ]
+        },
+        {
+            "name": "社交媒体",
+            "order": 19,
+            "mainstream_apps": [
+                { "id": "douyin", "name": "抖音" },
+                { "id": "kuaishou", "name": "快手" },
+                { "id": "xiaohongshu", "name": "小红书" },
+                { "id": "weibo", "name": "微博" },
+                { "id": "zhihu", "name": "知乎" },
+                { "id": "baidu_tieba", "name": "百度贴吧" },
+                { "id": "NGA", "name": "NGA" },
+                { "id": "facebook", "name": "facebook" },
+                { "id": "instagram", "name": "instagram" },
+                { "id": "threads", "name": "threads" },
+                { "id": "Twitter", "name": "Twitter" },
+                { "id": "reddit", "name": "reddit" }
+            ],
+            "private_alternatives": [
+                { "id": "zhihu", "name": "知乎" },
+                { "id": "Twitter", "name": "Twitter" },
+                { "id": "reddit", "name": "reddit" },
+                { "id": "minds", "name": "minds" },
+                { "id": "pixelfed", "name": "pixelfed" }
+            ]
+        },
+        {
+            "name": "视频通话",
+            "order": 20,
+            "mainstream_apps": [
+                { "id": "tencent_meeting", "name": "腾讯会议" },
+                { "id": "dingtalk", "name": "钉钉" },
+                { "id": "microsoft_teams", "name": "microsoft_teams" },
+                { "id": "zoom", "name": "zoom" }
+            ],
+            "private_alternatives": [
+                { "id": "google_meet", "name": "google_meet" },
+                { "id": "brave_talk", "name": "brave_talk" },
+                { "id": "jitsi", "name": "jitsi" },
+                { "id": "nextcloud_talk", "name": "nextcloud_talk" }
+            ]
+        },
+        {
+            "name": "支付方式",
+            "order": 21,
+            "mainstream_apps": [
+                { "id": "wechat", "name": "微信" },
+                { "id": "alipay", "name": "支付宝" },
+                { "id": "ecny", "name": "数字人民币" }
+            ],
+            "private_alternatives": [
+                { "id": "cash_and_cards", "name": "现金&实体卡优先" },
+                { "id": "alipay", "name": "支付宝" },
+                { "id": "paypal", "name": "paypal" },
+                { "id": "google_pay", "name": "google_pay" },
+                { "id": "apple_pay", "name": "apple_pay" }
+            ]
+        },
+        {
+            "name": "加密钱包",
+            "order": 22,
+            "mainstream_apps": [
+                { "id": "coinbase_wallet", "name": "coinbase_wallet" },
+                { "id": "metamask", "name": "metamask" },
+                { "id": "phantom", "name": "phantom" },
+                { "id": "trust_wallet", "name": "trust_wallet" }
+            ],
+            "private_alternatives": [
+                { "id": "brave_wallet", "name": "brave_wallet" },
+                { "id": "cake_wallet", "name": "cake_wallet" },
+                { "id": "proton_wallet", "name": "proton_wallet" },
+                { "id": "zodl", "name": "zodl" }
+            ]
+        },
+        {
+            "name": "DNS",
+            "order": 23,
+            "mainstream_apps": [
+                { "id": "ISPDNS", "name": "ISPDNS" }
+            ],
+            "private_alternatives": [
+                { "id": "cloudflare", "name": "cloudflare" },
+                { "id": "google_search", "name": "google_search" },
+                { "id": "controld", "name": "controld" },
+                { "id": "nextdns", "name": "nextdns" },
+                { "id": "adguard", "name": "adguard" },
+                { "id": "quad9", "name": "quad9" },
+                { "id": "mullvad_dns", "name": "mullvad_dns" },
+                { "id": "opennic", "name": "opennic" }
+            ]
+        },
+        {
+            "name": "电脑操作系统",
+            "order": 24,
+            "mainstream_apps": [
+                { "id": "windows", "name": "windows" },
+                { "id": "macos", "name": "macos" }
+            ],
+            "private_alternatives": [
+                { "id": "arch_linux", "name": "arch_linux" },
+                { "id": "macos", "name": "macos" },
+                { "id": "linux_mint", "name": "linux_mint" },
+                { "id": "qubes_os", "name": "qubes_os" },
+                { "id": "fedora", "name": "fedora" },
+                { "id": "ubuntu", "name": "ubuntu" },
+                { "id": "debian", "name": "debian" },
+                { "id": "nixos", "name": "nixos" },
+                { "id": "opensuse", "name": "opensuse" },
+                { "id": "Artix", "name": "Artix" },
+                { "id": "Devuan", "name": "Devuan" },
+                { "id": "Gentoo", "name": "Gentoo" },
+                { "id": "FreeBSD", "name": "FreeBSD" },
+                { "id": "OpenBSD", "name": "OpenBSD" },
+                { "id": "NetBSD", "name": "NetBSD" }
+            ]
+        },
+        {
+            "name": "手机操作系统",
+            "order": 25,
+            "mainstream_apps": [
+                { "id": "vendor_android", "name": "厂商定制安卓" },
+                { "id": "ios", "name": "ios" }
+            ],
+            "private_alternatives": [
+                { "id": "graphene_os", "name": "graphene_os" },
+                { "id": "ios", "name": "ios" },
+                { "id": "lineage_os", "name": "lineage_os" },
+                { "id": "e_os", "name": "e_os" },
+                { "id": "Evolution_X", "name": "Evolution X" },
+                { "id": "crDroid", "name": "crDroid" },
+                { "id": "calyx_os", "name": "calyx_os" },
+                { "id": "Project_Infinity_X", "name": "Project Infinity X" }
+            ]
+        },
+        {
+            "name": "影音娱乐",
+            "order": 26,
+            "mainstream_apps": [
+                { "id": "iqiyi", "name": "爱奇艺" },
+                { "id": "tencent_video", "name": "腾讯视频" },
+                { "id": "youku", "name": "优酷" },
+                { "id": "bilbil", "name": "bilbil" },
+                { "id": "netflix", "name": "netflix" },
+                { "id": "disney_plus", "name": "disney_plus" }
+            ],
+            "private_alternatives": [
+                { "id": "self_hosted_service", "name": "自建服务" },
+                { "id": "Bangumi", "name": "Bangumi" },
+                { "id": "Animeko", "name": "Animeko" },
+                { "id": "Kazumi", "name": "Kazumi" }
+            ]
+        },
+        {
+            "name": "办公套件",
+            "order": 27,
+            "mainstream_apps": [
+                { "id": "Microsoft_365", "name": "Microsoft_365" },
+                { "id": "WPS", "name": "WPS" },
+                { "id": "kingsoft_docs", "name": "金山文档" },
+                { "id": "Google_Workspace", "name": "Google_Workspace" },
+                { "id": "Apple_iWork", "name": "Apple_iWork" }
+            ],
+            "private_alternatives": [
+                { "id": "LibreOffice", "name": "LibreOffice" },
+                { "id": "Collabora", "name": "Collabora" },
+                { "id": "OnlyOffice", "name": "OnlyOffice" },
+                { "id": "OpenOffice", "name": "OpenOffice" },
+                { "id": "CryptPad", "name": "CryptPad" },
+                { "id": "proton_docs", "name": "proton_docs" },
+                { "id": "fileverse", "name": "fileverse" }
+            ]
+        },
+        {
+            "name": "域名托管",
+            "order": 28,
+            "mainstream_apps": [
+                { "id": "tencent_cloud", "name": "腾讯云" },
+                { "id": "aliyun_cloud", "name": "阿里云" },
+                { "id": "godaddy", "name": "godaddy" }
+            ],
+            "private_alternatives": [
+                { "id": "cloudflare", "name": "cloudflare" },
+                { "id": "njalla", "name": "njalla" },
+                { "id": "1984_hosting", "name": "1984_hosting" },
+                { "id": "orangewebsite", "name": "orangewebsite" }
+            ]
+        },
+        {
+            "name": "UGC 影音",
+            "order": 29,
+            "mainstream_apps": [
+                { "id": "douyin", "name": "抖音" },
+                { "id": "kuaishou", "name": "快手" },
+                { "id": "bilbil", "name": "bilbil" }
+            ],
+            "private_alternatives": [
+                { "id": "piliplus", "name": "piliplus" },
+                { "id": "youtube", "name": "youtube" }
+            ]
+        },
+        {
+            "name": "输入法",
+            "order": 30,
+            "mainstream_apps": [
+                { "id": "baidu_input", "name": "百度" },
+                { "id": "sogou_input", "name": "搜狗" },
+                { "id": "xunfei_input", "name": "迅飞" },
+                { "id": "wechat_input", "name": "微信输入法" }
+            ],
+            "private_alternatives": [
+                { "id": "Gboard", "name": "Gboard" },
+                { "id": "Fcitx5", "name": "Fcitx5" },
+                { "id": "rime", "name": "中州韵" },
+                { "id": "yuyan_input", "name": "语燕输入法" }
+            ]
+        }
+    ]
+}
