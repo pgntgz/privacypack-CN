@@ -1,14 +1,17 @@
 # PrivacyPack 隐私卡牌 (中文分支)
 
-选择以前使用过的主流应用程序，展示切换到的更尊重隐私的替代方案，并分享您的隐私化成果！
+选择您以前使用过的”主流“应用程序，展示您切换到的更尊重隐私的替代方案，并分享您的隐私化成果！
 
-您可以在本地或部署的服务器上创建卡片。本分支由[pgntgz](https://pgntgz.top/) 维护。
+您可以在本地或部署的服务器上创建卡片。
+
+本分支由[pgntgz](https://pgntgz.top/) 创建。
 
 感谢项目的[PrivacyPack](https://github.com/ente-io/privacypack)贡献者
-ente你们的相册真的很棒！
+
+[ente](https://ente.io)你们的相册真的很棒！
 
 本项目对应的 GitHub 仓库地址为：[https://github.com/pgntgz/privacypack-CN](https://github.com/pgntgz/privacypack-CN)
-我维护的网站链接是[PrivacyPack-CN](https://yinsi.pgntgz.top/)
+我维护的实例网站的链接是[PrivacyPack-CN](https://yinsi.pgntgz.top/)
 
 ![PrivacyPack Banner](public/og-image.png)
 
@@ -44,14 +47,14 @@ npm run dev
 
 ## 我有不错的替代应用
 
-您可以通过修改 `/data/apps.json` 来向目录中添加新应用。每个应用都属于一个特定的类别，并且可以是主流应用，也可以是隐私保护的替代方案。
+您可以通过修改 `/data/apps.json` 来向目录中添加新应用。每个应用都属于一个特定的类别，可以上传主流应用，也可以上传隐私保护的替代方案。
 
 如果您需要批量处理或转换图片，请在本地运行：
 ```bash
 python3 scripts/convert_images.py
 ```
 
-### 新增 Logo 要求
+### 新增的应用 Logo 要求
 
 在添加新应用时，确保 Logo 满足以下规范防止bug：
 
